@@ -1,0 +1,25 @@
+[package]
+name = "propagation"
+version = "0.1.0"
+authors = ["massivelivefun <matthewlancefuller@gmail.com>"]
+edition = "2018"
+description = "A supersonic cross-platform asynchronous ASIO device manager and audio routing application."
+exclude = [ "media/*" ]
+documentation = "https://www.dezzyne.com/doc/latest/doc/propagation/"
+homepage = "https://www.dezzyne.com/"
+repository = "https://github.com/dezzyne/propagation"
+readme = "README.md"
+license = "MIT/Apache-2.0/BSD3"
+
+[badges]
+travis-ci = { repository = "dezzyne/propagation", branch = "master" }
+
+[workspace]
+members = [ "propagation_endpoint/" ]
+
+[dependencies]
+os_info = "2.0.2"
+propagation_endpoint = { path = "propagation_endpoint/", version = "0.1.0" }
+sys-info = "0.5.10"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
