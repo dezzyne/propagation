@@ -2,7 +2,7 @@
 name = "propagation"
 version = "0.1.0"
 authors = ["massivelivefun <matthewlancefuller@gmail.com>"]
-edition = "2018"
+edition = "2021"
 description = "A supersonic cross-platform asynchronous ASIO device manager and audio routing application."
 exclude = [ "media/*" ]
 documentation = "https://www.dezzyne.com/doc/latest/doc/propagation/"
