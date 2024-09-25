@@ -21,5 +21,24 @@ members = [ "propagation_endpoint/" ]
 os_info = "2.0.2"
 propagation_endpoint = { path = "propagation_endpoint/", version = "0.1.0" }
 sys-info = "0.5.10"
+winit = { version = "0.28.7", features = ["x11"] }
+egui-winit = "0.23.0"
+egui = "0.23.0"
+egui_struct = "0.3.0"
+egui_struct_macros = "0.3.0"
+egui_dock = "0.8.2"
+egui-wgpu = "0.23.0"
+egui_wgpu_backend = "0.27.0"
+wgpu = "0.18.0"
+chrono = "0.4.31"
+egui_winit_platform = "0.20.0"
+pollster = "0.3.0"
+epi = "0.17.0"
+egui_demo_lib = "0.23.0"
+rea-rs = "0.1.2"
+rea-rs-low = "0.1.2"
+rea-rs-macros = "0.1.2"
+rea-rs-test = "0.1.2"
+cpal = { version = "0.15.2", features = ["asio", "asio-sys"] }
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
