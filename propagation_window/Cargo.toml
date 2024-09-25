@@ -1,0 +1,22 @@
+[package]
+name = "propagation_window"
+version = "0.1.0"
+authors = ["massivelivefun <matthewlancefuller@gmail.com>"]
+edition = "2018"
+description = "Windowing support for Propagation router."
+documentation = "https://www.dezzyne.com/doc/latest/doc/progatation_window/"
+homepage = "https://www.dezzyne.com/"
+repository = "https://github.com/dezzyne/propagation"
+license = "MIT/Apache-2.0"
+
+[badges]
+travis-ci = { repository = "dezzyne/propagation" }
+
+[dependencies]
+thread_profiler = { version = "0.3", optional = true }
+
+[features]
+profiler = [ "thread_profiler/thread_profiler" ]
+test_support = []
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
